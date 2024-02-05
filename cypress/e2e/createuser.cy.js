@@ -9,7 +9,7 @@ describe('Reqres API Testing - Create User', () =>{
             }
         }).then((response)=>{
             expect(response.status).to.equal(201)
-            expect(response.body).has.property("name, elvanissa")
+            expect(response.body).has.property("name", "elvanissa")
         })
     })
 } )
